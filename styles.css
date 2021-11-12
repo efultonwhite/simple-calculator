@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+body {
+    background-color: #3b4664;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+button {
+    width: 50px;
+    height: 31px;
+    background-color: #eae3db;
+    border: none;
+    margin: 3px;
+    border-bottom: 3px solid #a8a29b;
+}
+
+/* Classes */
+
+.main-container { 
+    /* background-color: aquamarine; */
+    width: 396px;
+    height: 526px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.number-field {
+    background-color: #181f32;
+    color: white;
+    width: 268px;
+    height: 63px;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 2rem;
+    padding: 10px;
+}
+.buttons-container {
+    background-color: #252d44;
+    width: 268px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.buton-sets {
+    width: 100%;
+}
+.bottom-btns {
+    
+    width: 111px;
+    height: 31px;
+    margin-bottom: 10px;
+}
+
+/* IDs */
+
+#reset, #delete {
+    background-color: #647299;
+    color: white;
+    border-bottom: 3px solid #4d5879;
+    
+}
+#equals {
+    background-color: #d13f30;
+    color: white;
+    border-bottom: 3px solid #b13527;
+
+}

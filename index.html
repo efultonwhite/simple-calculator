@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="./script.js" defer></script>
+  
+</head>
+<body>
+<div class="main-container">
+  <div class="number-field" data-currentOperand>
+    
+  </div>
+  <div class="buttons-container">
+    <div class="button-sets">
+      
+    </div>
+    <div class="button-sets">
+      <button class="num-btn" data-number="7">7</button>
+      <button class="num-btn" data-number="8">8</button>
+      <button class="num-btn" data-number="9">9</button>
+      <button id="delete" data-delete>DEL</button>
+    </div>
+    <div class="button-sets">
+      <button class="num-btn" data-number="4">4</button>
+      <button class="num-btn" data-number="5">5</button>
+      <button class="num-btn" data-number="6">6</button>
+      <button class="operation-btn" id="add" data-operation="+">+</button>
+    </div>
+    <div class="button-sets">
+      <button class="num-btn" data-number="1">1</button>
+      <button class="num-btn" data-number="2">2</button>
+      <button class="num-btn" data-number="3">3</button>
+      <button class="operation-btn" id="subtract" data-operation>-</button>
+    </div>
+    <div class="button-sets">
+      <button class="num-btn" id="decimal" data-number=".">.</button>
+      <button class="num-btn" data-number="0">0</button>
+      <button class="operation-btn" id="divide" data-operation>÷</button>
+      <button class="operation-btn" id="multiply" data-operation>x</button>
+    </div>
+    <div>
+      <button class="bottom-btns" id="reset" data-clear>RESET</button>
+      <button class="bottom-btns operation-btn" id="equals"data-opertaion="=">=</button>
+    </div>
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
